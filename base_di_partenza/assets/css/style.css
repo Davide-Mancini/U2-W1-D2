@@ -66,6 +66,7 @@ header {
   border: 1px solid rgba(255, 255, 255, 0.29);
   position: absolute;
   right: -25px;
+  top: 0;
 }
 .buttonblu {
   background: rgba(255, 255, 255, 0.18);
@@ -76,6 +77,7 @@ header {
   border: 1px solid rgba(255, 255, 255, 0.29);
   position: absolute;
   right: -25px;
+  bottom: 0;
 }
 .buttonblu1 {
   background: rgba(255, 255, 255, 0.18);
@@ -86,6 +88,7 @@ header {
   border: 1px solid rgba(255, 255, 255, 0.29);
   position: absolute;
   right: -25px;
+  top: 51px;
 }
 .novita {
   position: relative;
@@ -166,6 +169,10 @@ main {
 @media screen and (min-width: 700px) {
   main {
     padding: 2em;
+  }
+  .buttonred {
+    position: absolute;
+    bottom: 0;
   }
 }
 
