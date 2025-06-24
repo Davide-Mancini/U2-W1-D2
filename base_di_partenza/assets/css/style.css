@@ -65,8 +65,7 @@ header {
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.29);
   position: absolute;
-  right: 0;
-  bottom: 40px;
+  right: -25px;
 }
 .buttonblu {
   background: rgba(255, 255, 255, 0.18);
@@ -76,7 +75,7 @@ header {
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.29);
   position: absolute;
-  right: 0;
+  right: -25px;
 }
 .buttonblu1 {
   background: rgba(255, 255, 255, 0.18);
@@ -86,13 +85,10 @@ header {
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.29);
   position: absolute;
-  right: 0;
-  bottom: 4px;
+  right: -25px;
 }
-.buttonbox {
+.novita {
   position: relative;
-  float: inline-end;
-  right: -60px;
 }
 
 @media screen and (min-width: 800px) {
@@ -101,6 +97,16 @@ header {
   }
 }
 
+aside div {
+  position: relative;
+}
+#label {
+  position: absolute;
+  right: 10px;
+  bottom: 40px;
+  font-size: 80px;
+  opacity: 10%;
+}
 @media screen and (max-width: 1199px) {
   header .brand img {
     margin-bottom: 20px;
